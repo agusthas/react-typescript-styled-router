@@ -1,3 +1,20 @@
+# SUPER
+
+## Continued Development
+
+- Button still need a hover effect
+- What good is `react-router` without multiple pages? 🤣
+- Using the `theme` object that comes with `styled-component`
+
+## Learn
+
+- How to integrate styled-component and react-router with Typescript.
+- Learn new utility Type `Pick` in typescript. Useful to extract specific types from an interface (give boost to intellisense in VSCODE)
+
+```typescript
+type PickData<T extends keyof DataModel> = Pick<DataModel, T>;
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
